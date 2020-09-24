@@ -1,0 +1,149 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Dosis', sans-serif, 'Exo', sans-serif, 'Lato', sans-serif;
+}
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1400px;
+}
+.half-width {
+    float: left;
+    font-family: 'Exo';
+    text-align: center;
+    width: 700px;
+}
+.third-width {
+    font-family: 'Exo';
+    float: left;
+    width: 33.3%;
+}
+
+/***** HEADER SECTION *****/
+nav {
+    background-color: #501b1d;  
+    margin: 0 auto;
+}
+nav ul {
+    display: inline-flex;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 15px 15px;
+}
+a {
+    font-size: 25px;
+    font-family: 'Dosis';
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background-color: #77393c;
+    color:white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.full-width #intro {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1400px;
+    height: 700px;
+}
+#logo img {
+    max-width: 45px;
+}
+div #logo {
+    width: 45px;
+}
+header {
+    text-align: center;
+    padding-top: 3px;
+}
+header h1 {
+    color: #FFCB9A;
+    font-family: 'Dosis';
+    font-weight: 700;
+    font-size: 65px;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 200px 100px 15px;
+    text-transform: uppercase;
+}
+header h2 span {
+    color: #501b1d;
+    font-family: 'Dosis';
+    font-size: 22px;
+}
+.half-width h3 {
+    text-align: center;
+}
+.half-width h4 {
+    text-align: left;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.half-width p {
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 160px;
+}
+/***** WORK SECTION *****/
+.half-width img {
+    max-width: 70%;
+    padding: 10px;
+}
+#work h3 {
+    font-family: 'Lato';
+    color: #501b1d;
+    font-size: 36px;
+}
+#work h4 {
+    color: #501b1d;
+}
+/***** ABOUT SECTION *****/
+#about-me h3 {
+    font-size: 36px;
+    text-align: center;
+}
+.third-width img {
+    max-width: 10%;
+}
+#about-me h3 {
+    font-family: 'Lato';
+    font-size: 36px;
+}
+#about-me {
+    color: white;
+    background-color: #501b1d;
+    width: 1400px;
+    margin: 0 auto;
+}
+h5 {
+    text-align: center;
+}
+
+/***** CONTACT SECTION *****/
+#footer {
+    color: white;
+    background-color: #2E1114;
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+#footer h3 {
+    font-family: 'Lato';
+    font-size: 36px;
+}
+#footer h4 {
+    text-transform: uppercase;
+}
+#footer img {
+    padding: 5px;
+}

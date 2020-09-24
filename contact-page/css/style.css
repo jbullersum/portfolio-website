@@ -1,0 +1,128 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Dosis', sans-serif, 'Exo', sans-serif, 'Lato', sans-serif;
+}
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1600px;
+}
+.half-width {
+    float: left;
+    width: 800px;
+    text-align: center;
+}
+.third-width {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+/***** HEADER SECTION *****/
+nav {
+    background-color: #501b1d;  
+    margin: 0 auto;
+}
+ul {
+    display: inline-flex;
+    padding: 0px 0px 0px 600px;
+}
+ul li {
+    list-style-type: none;
+    padding: 15px 15px;
+}
+nav a {
+    font-size: 25px;
+    font-family: 'Dosis';
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background-color: #77393c;
+    color:white;
+    padding: 10px;
+    border-radius: 15px;
+}
+#logo img {
+    max-width: 45px;
+}
+div #logo {
+    width: 45px;
+}
+h1 {
+    color: #501b1d;
+    font-size: 70px;
+    font-family: 'Dosis';
+    font-weight: 300;
+    margin: auto 0;
+    padding: 50px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    color: #501b1d;
+    font-size: 30px;
+    margin: auto 0;
+    text-align: center;
+}
+
+/***** BODY SECTION *****/
+#contact-section {
+    display: inline-flex;
+}
+#contact-section .full-width{
+    padding: 50px 0px;
+}
+img {
+    max-width: 35%;
+}
+a {
+    font-size: 30px;
+    color: #ffcb9a;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#contact-section h2 {
+    color: #ffcb9a;
+    font-size: 40px;
+    font-weight: 300;
+    margin: auto 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#social-media {
+    padding-top: 15px;
+}
+#social-media img {
+    padding-bottom: 15px;
+}
+#social-media a {
+    font-size: 40px;
+}
+/***** LOCATION SECTION *****/
+.gps {
+    display: inline-flex;
+    padding-left: 580px;
+}
+.gps hr {
+    max-width: 50%;
+}
+#location {
+    padding-top: 75px;
+}
+#location img {
+    max-width: 15%;
+}
+h3 {
+    font-size: 40px;
+    color: #ffcb9a;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: auto 0;
+    padding: 5px;
+}
+footer {
+    text-align: center;
+}
